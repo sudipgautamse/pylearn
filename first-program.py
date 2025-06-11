@@ -3,6 +3,17 @@ print("hello "+name) #concatenation
 print(f"hello, {name}")  #string formatting
 try:
     age = int(input("enter your age: "))
+    #operators
+    # == equals to
+    # != not equals to
+    # > greater than
+    # <less than
+    # >= greater than or equals to
+    # <= less than or equals to
+    # logical operators
+    # and, or, not
+    # if, elif, else
+    
     if age < 16:
         print("you are a minor")
     elif age > 60:
